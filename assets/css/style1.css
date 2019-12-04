@@ -1,0 +1,144 @@
+nav{
+	margin-top:10px;
+}
+.form-inline
+{
+	margin-left: 300px;
+	padding-right: 80px;
+	border-radius: 2px;
+	    font-weight: 200;
+}
+.btn-success1
+{
+	background: white;
+	color: green;
+	border-color: green;
+	margin-left: 200px;
+	font-family: sans-serif;
+}
+.p1
+{
+	width: 1300px;
+	height: 600px;
+}
+.nav-link
+{
+	 color: #9B9B9B;
+	font-weight: 900px;
+
+}
+a{
+	color: black;
+}
+a:hover{
+	color: green;
+
+}
+.active
+{
+	color: green;
+}
+.container-fluid {
+  position: relative; 
+  max-width: 1300px; /* Maximum width */
+ 
+}
+.container-fluid .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+ 
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+.h1
+{
+	margin-bottom: 8.5rem;
+	margin-left: 80px;
+}
+.p2{
+width: 80px;
+height: 70px;
+margin-bottom: -5.5rem;
+
+}
+form.f1 input[type=text] {
+  padding: 8px;
+  font-size: 17px;
+  border: 1px solid #efe9e9;
+  float: left;
+  width: 80%;
+  background:white;
+}
+
+form.f1 button {
+  float: left;
+  width: 6%;
+  padding: 8px;
+  background:#ebeef1;
+  
+  color: white;
+  font-size: 17px;
+  border: 1px solid #efe9e9;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.f1 button:hover {
+  background: #0b7dda;
+}
+.pic
+{
+	width: 500px;
+	height: 215px;
+	margin-top: 20px;
+}
+.sidenav {
+  height: 100%;
+  width: 190px;
+ /* position: fixed;*/
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: green;
+}
+
+.main {
+  margin-left: 150px; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 20px;}
+  .sidenav a {font-size: 18px;}
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:500px;
+width:600px;
+position:absolute;
+}
+
+ 

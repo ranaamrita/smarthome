@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+</head>
+<body>
+
+
+
+<p><button onclick="change()">Click Me</button></p>
+
+<div id="myDIV"><img class="img-thumbnail abc" src="photo/bulb1.gif"></div>
+
+<script>
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.innerHTML === "photo/bulb1.gif") {
+//     x.innerHTML = "Swapped text!";
+//   } else {
+//     x.innerHTML = "photo/bulb1.gif";
+//   }
+// }
+    function change() {
+   var img1 = "photo/bulb1.gif",
+       img2 = "photo/bulbv.gif";
+   var imgElement = document.getElementById('test');
+   
+   imgElement.src = (imgElement.src === img1)? img2 : img1;
+}
+</script>
+<img src="http://placehold.it/350x150" id="test" onclick ="change();"/>
+</body>
+</html>
